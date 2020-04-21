@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  height: 35px;
+  width: 400px;
+  /* border: 30px black; */
+  margin: 15px 0;
+}
+
+.container {
+  max-width: 80%;
+}
+
+.gallery,
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  margin: 10px 25px 25px;
+}
