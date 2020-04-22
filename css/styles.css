@@ -28,6 +28,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-a {
+div[class^="photo"] {
   margin: 15px 30px 30px 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
 }

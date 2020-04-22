@@ -9,3 +9,8 @@ lightbox.option({
 });
 
 // Search Feature
+
+// $("input").on("keyup", function () {
+//   let search = $(this).value().toUpperCase();
+//   console.log(search);
+// });
