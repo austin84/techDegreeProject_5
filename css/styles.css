@@ -7,13 +7,18 @@ body {
 
 .search input {
   height: 35px;
-  width: 400px;
-  /* border: 30px black; */
+  width: 480px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
   margin: 15px 0;
+  font-size: 16px;
+  font-family: "Baloo Bhaina 2", cursive, sans-serif;
+  color: rgb(168, 167, 167);
 }
 
 .container {
-  max-width: 80%;
+  width: 90%;
+  max-width: 1180px;
 }
 
 .gallery,
@@ -24,5 +29,5 @@ body {
   align-items: center;
 }
 .photo {
-  margin: 10px 25px 25px;
+  margin: 15px 30px 30px 30px;
 }
