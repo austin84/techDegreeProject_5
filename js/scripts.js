@@ -24,20 +24,3 @@ $(document).ready(function () {
     min_chars: 1,
   });
 });
-
-// const input = $("#search").val().toUpperCase();
-// const gallery = $(".photo");
-// const data = $(".photo a").attr("data-title").toUpperCase();
-
-// $("#search").keyup(function () {
-//   let search = $("#search").val().toUpperCase();
-//   let gallery = $(".photo");
-//   for (let i = 0; i < gallery.length; i += 1) {
-//     let data = $(".photo a"[i]).attr("data-title").toUpperCase();
-//     if (search == data) {
-//       gallery[i].style.display = "none";
-//     } else {
-//       gallery[i].style.display = "block";
-//     }
-//   }
-// });
