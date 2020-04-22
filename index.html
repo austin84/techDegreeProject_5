@@ -14,21 +14,38 @@
   <body>
     <main class="container">
       <div class="search">
-        <input type="text" />
+        <input
+          id="search"
+          name="search"
+          placeholder="Search"
+          type="text"
+          data-toggle="hideseek"
+          data-list=".list"
+        />
       </div>
-      <div class="gallery">
-        <div class="photo-1">
+      <div class="list">
+        <div
+          class="photo"
+          title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+        >
           <a
             href="images/01.jpg"
             data-lightbox="lightbox"
             data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
             rel="lightbox[gallery]"
           >
-            <img src="images/thumbnails/01.jpg" alt="A field of Hay" />
+            <img
+              class="photo"
+              src="images/thumbnails/01.jpg"
+              alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+            />
           </a>
         </div>
 
-        <div class="photo-2">
+        <div
+          class="photo"
+          title="The lake was so calm today. We had a great view of the snow on the mountains from here."
+        >
           <a
             href="images/02.jpg"
             data-lightbox="lightbox"
@@ -39,7 +56,10 @@
           </a>
         </div>
 
-        <div class="photo-3">
+        <div
+          class="photo"
+          title="I hiked to the top of the mountain and got this picture of the canyon and trees below."
+        >
           <a
             href="images/03.jpg"
             data-lightbox="lightbox"
@@ -50,7 +70,10 @@
           </a>
         </div>
 
-        <div class="photo-4">
+        <div
+          class="photo"
+          title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."
+        >
           <a
             href="images/04.jpg"
             data-lightbox="lightbox"
@@ -64,7 +87,10 @@
           </a>
         </div>
 
-        <div class="photo-5">
+        <div
+          class="photo"
+          title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."
+        >
           <a
             href="images/05.jpg"
             data-lightbox="lightbox"
@@ -75,7 +101,10 @@
           </a>
         </div>
 
-        <div class="photo-6">
+        <div
+          class="photo"
+          title="Fall is coming, I love when the leaves on the trees start to change color."
+        >
           <a
             href="images/06.jpg"
             data-lightbox="lightbox"
@@ -85,7 +114,10 @@
           </a>
         </div>
 
-        <div class="photo-7">
+        <div
+          class="photo"
+          title="I drove past this plantation yesterday, everything is so green!"
+        >
           <a
             href="images/07.jpg"
             data-lightbox="lightbox"
@@ -95,7 +127,10 @@
           </a>
         </div>
 
-        <div class="photo-8">
+        <div
+          class="photo"
+          title="My summer vacation to the Oregon Coast. I love the sandy dunes!"
+        >
           <a
             href="images/08.jpg"
             data-lightbox="lightbox"
@@ -105,7 +140,10 @@
           </a>
         </div>
 
-        <div class="photo-9">
+        <div
+          class="photo"
+          title="We enjoyed a quiet stroll down this countryside lane."
+        >
           <a
             href="images/09.jpg"
             data-lightbox="lightbox"
@@ -118,7 +156,10 @@
           </a>
         </div>
 
-        <div class="photo-10">
+        <div
+          class="photo"
+          title="Sunset at the coast! The sky turned a lovely shade of orange."
+        >
           <a
             href="images/10.jpg"
             data-lightbox="lightbox"
@@ -131,7 +172,10 @@
           </a>
         </div>
 
-        <div class="photo-11">
+        <div
+          class="photo"
+          title="I did a tour of a cave today and the view of the landscape below was breathtaking."
+        >
           <a
             href="images/11.jpg"
             data-lightbox="lightbox"
@@ -144,7 +188,10 @@
           </a>
         </div>
 
-        <div class="photo-12">
+        <div
+          class="photo"
+          title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
+        >
           <a
             href="images/12.jpg"
             data-lightbox="lightbox"
@@ -156,9 +203,11 @@
       </div>
       <footer>
         <p>Copyright 2020 - Austin Veatch</p>
+        <p id="result"></p>
       </footer>
     </main>
-    <script src="/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery.hideseek.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
