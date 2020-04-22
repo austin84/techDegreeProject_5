@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/lightbox.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Photo Gallery</title>
   </head>
@@ -16,96 +17,130 @@
         <input type="text" />
       </div>
       <div class="gallery">
-        <div class="photo">
-          <a href="" class="image-1">
-            <img src="images/thumbnails/01.jpg" alt="A field of Hay" />
-          </a>
-        </div>
+        <a
+          href="images/01.jpg"
+          data-lightbox="image"
+          data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+          class="image-1"
+          rel="lightbox[gallery]"
+        >
+          <img src="images/thumbnails/01.jpg" alt="A field of Hay" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-2">
-            <img src="images/thumbnails/02.jpg" alt="A lake and mountains" />
-          </a>
-        </div>
+        <a
+          href="images/02.jpg"
+          data-lightbox="image"
+          data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."
+          class="image-2"
+          rel="lightbox[gallery]"
+        >
+          <img src="images/thumbnails/02.jpg" alt="A lake and mountains" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-3">
-            <img src="images/thumbnails/03.jpg" alt="A green field" />
-          </a>
-        </div>
+        <a
+          href="images/03.jpg"
+          data-lightbox="image"
+          data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below."
+          class="image-3"
+          rel="lightbox[gallery]"
+        >
+          <img src="images/thumbnails/03.jpg" alt="A green field" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-4">
-            <img
-              src="images/thumbnails/04.jpg"
-              alt="Iceburgs with mountains behind"
-            />
-          </a>
-        </div>
+        <a
+          href="images/04.jpg"
+          data-lightbox="image"
+          data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."
+          class="image-4"
+          rel="lightbox[gallery]"
+        >
+          <img
+            src="images/thumbnails/04.jpg"
+            alt="Iceburgs with mountains behind"
+          />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-5">
-            <img src="images/thumbnails/05.jpg" alt="Desert peaks" />
-          </a>
-        </div>
+        <a
+          href="images/05.jpg"
+          data-lightbox="image"
+          data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."
+          class="image-5"
+          rel="lightbox[gallery]"
+        >
+          <img src="images/thumbnails/05.jpg" alt="Desert peaks" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-6">
-            <img src="images/thumbnails/06.jpg" alt="Desert foliage" />
-          </a>
-        </div>
+        <a
+          href="images/06.jpg"
+          data-lightbox="image"
+          data-title="Fall is coming, I love when the leaves on the trees start to change color."
+          class="image-6"
+        >
+          <img src="images/thumbnails/06.jpg" alt="Desert foliage" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-7">
-            <img src="images/thumbnails/07.jpg" alt="A green valley" />
-          </a>
-        </div>
+        <a
+          href="images/07.jpg"
+          data-lightbox="image"
+          data-title="I drove past this plantation yesterday, everything is so green!"
+          class="image-7"
+        >
+          <img src="images/thumbnails/07.jpg" alt="A green valley" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-8">
-            <img src="images/thumbnails/08.jpg" alt="A sandy beach" />
-          </a>
-        </div>
+        <a
+          href="images/08.jpg"
+          data-lightbox="image"
+          data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!"
+          class="image-8"
+        >
+          <img src="images/thumbnails/08.jpg" alt="A sandy beach" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-9">
-            <img
-              src="images/thumbnails/09.jpg"
-              alt="An overgrown gravel road"
-            />
-          </a>
-        </div>
+        <a
+          href="images/09.jpg"
+          data-lightbox="image"
+          data-title="We enjoyed a quiet stroll down this countryside lane."
+          class="image-9"
+        >
+          <img src="images/thumbnails/09.jpg" alt="An overgrown gravel road" />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-10">
-            <img
-              src="images/thumbnails/10.jpg"
-              alt="A view from an ocean cliff"
-            />
-          </a>
-        </div>
+        <a
+          href="images/10.jpg"
+          data-lightbox="image"
+          data-title="Sunset at the coast! The sky turned a lovely shade of orange."
+          class="image-10"
+        >
+          <img
+            src="images/thumbnails/10.jpg"
+            alt="A view from an ocean cliff"
+          />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-11">
-            <img
-              src="images/thumbnails/11.jpg"
-              alt="A view from a cave overlooking a green valley"
-            />
-          </a>
-        </div>
+        <a
+          href="images/11.jpg"
+          data-lightbox="image"
+          data-title="I did a tour of a cave today and the view of the landscape below was breathtaking."
+          class="image-11"
+        >
+          <img
+            src="images/thumbnails/11.jpg"
+            alt="A view from a cave overlooking a green valley"
+          />
+        </a>
 
-        <div class="photo">
-          <a href="" class="image-12">
-            <img src="images/thumbnails/12.jpg" alt="A distant mountain" />
-          </a>
-        </div>
+        <a
+          href="images/12.jpg"
+          data-lightbox="image"
+          data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
+          class="image-12"
+        >
+          <img src="images/thumbnails/12.jpg" alt="A distant mountain" />
+        </a>
       </div>
     </main>
-    <script
-      src="https://code.jquery.com/jquery-3.5.0.min.js"
-      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

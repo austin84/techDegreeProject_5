@@ -28,6 +28,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.photo {
+a {
   margin: 15px 30px 30px 30px;
 }
